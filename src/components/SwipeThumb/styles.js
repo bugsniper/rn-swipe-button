@@ -1,8 +1,8 @@
 import {StyleSheet} from 'react-native';
 
-const borderWidth = 3;
+const borderWidth = 1;
 const margin = 1;
-const maxContainerHeight = 100;
+const maxContainerHeight = 120;
 const Styles = StyleSheet.create({
   container: {
     alignItems: 'flex-end',
@@ -11,6 +11,7 @@ const Styles = StyleSheet.create({
     borderRightWidth: 0,
     borderWidth: 0,
     margin:-1,
+    height: 58,
   },
   containerRTL: {
     alignItems: 'flex-start',
@@ -29,7 +30,7 @@ const Styles = StyleSheet.create({
   },
   defaultThumbIcon: {
     width: 100,
-    height: 105,
+    height: 58,
     borderRadius: 5,
     backgroundColor: '#800080',
   },
