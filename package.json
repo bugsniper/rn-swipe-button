@@ -1,0 +1,49 @@
+{
+  "name": "rn-swipe-button",
+  "version": "1.2.6",
+  "description": "react native swipe/slide button component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UdaySravanK/RNSwipeButton.git"
+  },
+  "keywords": [
+    "react-native-swipe-button",
+    "swipe-button",
+    "rn-swipe-button",
+    "swipeable-button",
+    "swipeable",
+    "swipe",
+    "slide-to-unlock",
+    "slide-button",
+    "react-native-slide-button",
+    "react-native-slide",
+    "swipe-to-unlock",
+    "rn-slide-button",
+    "right-to-left-swipe-button",
+    "right-to-left-slide-button",
+    "swipe-right-to-left",
+    "swipe-left-to-right",
+    "slide"
+  ],
+  "author": "Uday Sravan Kumar Kamineni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UdaySravanK/RNSwipeButton/issues"
+  },
+  "homepage": "https://github.com/UdaySravanK/RNSwipeButton#readme",
+  "devDependencies": {
+    "@react-native-community/eslint-config": "^0.0.5",
+    "eslint": "^6.3.0",
+    "metro-react-native-babel-preset": "^0.56.0"
+  },
+  "peerDependencies": {
+    "react": "16.8.6",
+    "react-native": "0.60.5"
+  },
+  "types": "./types.d.ts"
+}
